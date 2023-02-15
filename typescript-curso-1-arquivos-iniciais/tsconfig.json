@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js", 
+        "target": "ES6", 
+        //NÃO VAI GERAR UM ARQUIVO JS ENQUANTO O ARQUIVO TS ESTEJA COM PROBLEMA. 
+        "noEmitOnError": true, 
+        "noImplicitAny": true, 
+        "removeComments": true, 
+        "strictNullChecks": true
+    }, 
+    "include": [
+        "app/**/*"
+    ]
+}
